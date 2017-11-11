@@ -1,3 +1,18 @@
+/* pastels */
+/* https://www.incengine.com/?art=pastel_colors */
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Alegreya:400i');
+/* font-family: 'Alegreya', serif; */
+/* font-family: 'Alegreya Sans', sans-serif; */
+
+h1,h2,h3,h4,h5,h6,.main-parallax{
+    font-family: 'Alegreya', serif;
+}
+
+p,span{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
 html, body{
     margin: 0;
     padding: 0;
@@ -6,7 +21,7 @@ html, body{
 }
 .main-parallax{
     width: 100%;
-    height: 50vh;
+    height: 75vh;
     position: relative;
     overflow: hidden;
 
@@ -15,6 +30,7 @@ html, body{
     transform-style: inherit;
     
     text-align: right;
+    background-color: #FFDFDF;
 }
 .main-parallax > div{
     width:100%;
@@ -33,23 +49,81 @@ html, body{
   } */
 
 img.para {
-    /* position: absolute; */
-    z-index: -1;
-    margin-top: 23%;
-    display: inline-block;
+    position: absolute;
+    /* z-index: -1; */
+    right: 40px;
+    margin-top: 3%;
+    /* margin-right: 7%; */
+    /* display: inline-block; */
     height: 555px;
     padding: 10px;
     border-radius: 5px;
     background: rgba(240,230,220, .7);
     box-shadow: 0 0 8px rgba(0, 0, 0, .7);
-
     /* transform: translateZ(.25px) scale(.75) translateX(-4%) translateY(-10%) rotate(6deg); */
 }
 
 #about{
-    /* padding-top: 50vh; */
+    padding: 1em 0;
+    position: relative;
+    /* background-color:lightcyan; */
+    height: 500px;
+    background-color: #fdfcff;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23e6dbff' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
+#about > div{
+    position: absolute;
+}
+
+#about >div >div{
+    width: 75%;
+    margin: 0 auto;
+}
 .element{
     color:black;
+    font-size: 3em;
+}
+.about-text{
+    background-color: #FFF9CE;
+    padding:20px;
+    border: 3px dotted #e5e5e5;
+    border-radius: 15px;
+	/* border-bottom: 3px dotted #e5e5e5; */
+	box-shadow: inset 0 -1px 0 0 #e5e5e5, inset 0 1px 0 0 #e5e5e5, 0 1px 0 0 #e5e5e5, 0 -1px 0 0 #e5e5e5;
+	/* margin-bottom: 1px; */
+}
+
+.work{
+    background-color: #CAFFD8;
+    height:30em;
+}
+
+.contact{
+    background-color: #CACAFF;
+    height:15em;
+
+}
+
+.skill-box{
+    position: absolute;
+    height: 200px;
+    line-height: 200px;
+    background-color: #FFE6B5;
+    text-align: center;
+    /* vertical-align: middle; */
+}
+.skill-box h3{
+    display: inline-block;
+}
+.row{
+    position: relative;
+    padding-top: 2em;
+}
+.row:nth-child(2){
+    padding-bottom: 2em;
+}
+.work > h1{
+    text-align: center;
+    padding-top: .6em;
 }

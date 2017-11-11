@@ -216,7 +216,6 @@ canvas {
 .typed-cursor,
 .element {
   display: inline;
-  font-weight: 700;
 }
 
 #particles-js {
@@ -248,7 +247,7 @@ canvas {
 /*------------------about section---------------------------*/
 
 .about .section-title {
-  text-align: left;
+  text-align: center;
 }
 
 .about-text {
@@ -911,7 +910,7 @@ canvas {
 /*------------------contact section-------------*/
 
 .contact {
-  background: url("../images/contact.jpg");
+  /* background: url("../images/contact.jpg"); */
   background-size: cover;
 }
 
@@ -1020,10 +1019,12 @@ form #email {
 
 footer {
   padding: 35px 0px;
-  background: #333;
+  /* background: #333; */
+  background-color:lightgray;
 }
 
 .copyright p {
   text-align: center;
-  color: #ddd;
+  color:black;
+  /* color: #ddd; */
 }
