@@ -70,7 +70,7 @@
 /*-----------------header-----------------*/
 
 header {
-  height: 80px;
+  padding: 10px 0;
   line-height: 80px;
   background: #fff;
   position: fixed;
@@ -128,6 +128,13 @@ header nav ul li a:active::after {
   z-index: 10;
 }
 
+header div{
+  text-align: center;
+}
+header div h3{
+  font-size: 2em;
+}
+
 .slicknav_menu {
   display: none;
   height: 80px;
@@ -151,7 +158,7 @@ canvas {
 
 .image-bg{
   background-size: cover;
-  background: url("../images/img-bg.jpg");
+  /* background: url("../images/img-bg.jpg"); */
 }
 
 .image-bg.welcome-area{
