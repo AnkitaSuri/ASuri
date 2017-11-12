@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./lib/css/style.css">
     <link rel="stylesheet" href="./lib/css/custom.css">
     <link rel="stylesheet" href="./lib/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!---title logo icon-->
     <link rel="shortcut icon" href="favicon.ico">
     <script type="text/javascript" src="./lib/js/respond.js"></script>
@@ -31,17 +32,15 @@
     <header>
         <div class="container">
 
-
             <!-- Top Name -->
-            <h2>
+            <h1 id="name">
                 Ankita Suri
-            </h2>
+            </h1>
 
             <!-- Summary Qoute -->
-            <h3>
+            <h3 id="quote">
                 Helping non-profits organize for social good
             </h3>
-
 
         </div>
     </header>
@@ -50,11 +49,14 @@
     <!--Start Welcome Section-->
     <div class="main-parallax">
         <div>
-            <!-- Container for JavaScript words will reside -->
+            <!-- FLOATING WORDS -->
+            <!-- TO CHANGE FLOATING WORDS, GO TO "lib/js/main.js" -->
+
+            <!-- Container for floating words -->
             <div class="element"></div>
             <span class="typed-cursor"></span>
         </div>
-        <img class="para" data-speed=".5" data-rotation-deg="6" src="./assets/ankita.jpg" alt="">
+        <img class="para" data-speed="1.25" data-rotation-deg="6" src="./assets/ankita.jpg" alt="">
     </div>
     <!--End Welcome Section-->
 
@@ -99,46 +101,136 @@
     <!--End About Section-->
 
     <!-- Start Work Section -->
-    <section class="work">
-        <h1>
+    
+    <!-- BACKGROUND FOR WORK SECTION (CONTAINS SKILL BOXES) -->
+    <section class="work" style="background-image:url(assets/pastel2.jpg);">
+        <div class="lighten">
+        <h1 class="section-title">
             Work With Me
         </h1>
         <div class="container">
             <div class="row">
-                <div class="skill-box col-md-4 col-md-offset-1" data-stellar-ratio="2" data-stellar-vertical-offset="250">
+                <!-- 1ST SKILL BUTTON -->
+                <div class="skill-box col-md-4 col-md-offset-1" data-stellar-ratio="2" data-stellar-vertical-offset="450">
+                    <a data-popup-open="popup-1" href="#">
+                        <h3>
+                            Event Planner
+                        </h3>
+                    </a>
                     
-                    <a data-popup-open="popup-1" href="#"><h3>Event Planner</h3></a>
-                    
-                   <div class="popup" data-popup="popup-1">
+                    <!-- POPUP #1 -->
+                    <div class="popup" data-popup="popup-1">
                        <div class="popup-inner">
-                           <h2>Wow! This is Awesome! (Popup #1)</h2>
-                           <p>Donec in volutpat nisi. In quam lectus, aliquet rhoncus cursus a, congue et arcu. Vestibulum tincidunt neque id nisi pulvinar aliquam. Nulla luctus luctus ipsum at ultricies. Nullam nec velit dui. Nullam sem eros, pulvinar sed pellentesque ac, feugiat et turpis. Donec gravida ipsum cursus massa malesuada tincidunt. Nullam finibus nunc mauris, quis semper neque ultrices in. Ut ac risus eget eros imperdiet posuere nec eu lectus.</p>
+                            <h2>
+                               Event Planner
+                            </h2>
+                           <p>
+                               Donec in volutpat nisi. In quam lectus, aliquet rhoncus cursus a, congue et arcu. Vestibulum tincidunt neque id nisi pulvinar aliquam. Nulla luctus luctus ipsum at ultricies. Nullam nec velit dui. Nullam sem eros, pulvinar sed pellentesque ac, feugiat et turpis. Donec gravida ipsum cursus massa malesuada tincidunt. Nullam finibus nunc mauris, quis semper neque ultrices in. Ut ac risus eget eros imperdiet posuere nec eu lectus.
+                            </p>
                            <p><a data-popup-close="popup-1" href="#">Close</a></p>
                            <a class="popup-close" data-popup-close="popup-1" href="#">x</a>
                        </div>
                    </div>
                 </div>
-                <div class="skill-box col-md-4 col-md-offset-2" data-stellar-ratio="2" data-stellar-vertical-offset="250">
-                    <h3>Impact Evaluation</h3>
+
+                <!-- 2ND SKILL BUTTON -->
+                <div class="skill-box col-md-4 col-md-offset-2" data-stellar-ratio="2" data-stellar-vertical-offset="450">
+                    <a data-popup-open="popup-2" href="#">
+                        <h3>
+                            Impact Evaluation
+                        </h3>
+                    </a>
+                    
+                    <!-- POPUP #2 -->
+                    <div class="popup" data-popup="popup-2">
+                       <div class="popup-inner">
+                            <h2>
+                                    Impact Evaluation
+                            </h2>
+                           <p>
+                               Donec in volutpat nisi. In quam lectus, aliquet rhoncus cursus a, congue et arcu. Vestibulum tincidunt neque id nisi pulvinar aliquam. Nulla luctus luctus ipsum at ultricies. Nullam nec velit dui. Nullam sem eros, pulvinar sed pellentesque ac, feugiat et turpis. Donec gravida ipsum cursus massa malesuada tincidunt. Nullam finibus nunc mauris, quis semper neque ultrices in. Ut ac risus eget eros imperdiet posuere nec eu lectus.
+                            </p>
+                           <p><a data-popup-close="popup-2" href="#">Close</a></p>
+                           <a class="popup-close" data-popup-close="popup-2" href="#">x</a>
+                       </div>
+                   </div>
                 </div>
             </div>
             <div class="row">
-                <div class="skill-box col-md-4 col-md-offset-1" data-stellar-ratio="2" data-stellar-vertical-offset="400">
-                    <h3>Salesforce</h3>
+                <!-- 3RD SKILL BUTTON -->
+                <div class="skill-box col-md-4 col-md-offset-1" data-stellar-ratio="2" data-stellar-vertical-offset="600">
+                    <a data-popup-open="popup-3" href="#">
+                        <h3>
+                            Salesforce
+                        </h3>
+                    </a>
+                    
+                    <!-- POPUP #3 -->
+                    <div class="popup" data-popup="popup-3">
+                       <div class="popup-inner">
+                            <h2>
+                                    Salesforce
+                            </h2>
+                           <p>
+                               Donec in volutpat nisi. In quam lectus, aliquet rhoncus cursus a, congue et arcu. Vestibulum tincidunt neque id nisi pulvinar aliquam. Nulla luctus luctus ipsum at ultricies. Nullam nec velit dui. Nullam sem eros, pulvinar sed pellentesque ac, feugiat et turpis. Donec gravida ipsum cursus massa malesuada tincidunt. Nullam finibus nunc mauris, quis semper neque ultrices in. Ut ac risus eget eros imperdiet posuere nec eu lectus.
+                            </p>
+                           <p><a data-popup-close="popup-3" href="#">Close</a></p>
+                           <a class="popup-close" data-popup-close="popup-3" href="#">x</a>
+                       </div>
+                   </div>
                 </div>
-                <div class="skill-box col-md-4 col-md-offset-2" data-stellar-ratio="2" data-stellar-vertical-offset="400">
-                    <h3>Program Design</h3>
+
+                <!-- 4TH SKILL BUTTON -->
+                <div class="skill-box col-md-4 col-md-offset-2" data-stellar-ratio="2" data-stellar-vertical-offset="600">
+                    <a data-popup-open="popup-4" href="#">
+                        <h3>
+                            Program Design
+                        </h3>
+                    </a>
+                    
+                    <!-- POPUP #4 -->
+                    <div class="popup" data-popup="popup-4">
+                       <div class="popup-inner">
+                            <h2>
+                                    Program Design
+                            </h2>
+                           <p>
+                               Donec in volutpat nisi. In quam lectus, aliquet rhoncus cursus a, congue et arcu. Vestibulum tincidunt neque id nisi pulvinar aliquam. Nulla luctus luctus ipsum at ultricies. Nullam nec velit dui. Nullam sem eros, pulvinar sed pellentesque ac, feugiat et turpis. Donec gravida ipsum cursus massa malesuada tincidunt. Nullam finibus nunc mauris, quis semper neque ultrices in. Ut ac risus eget eros imperdiet posuere nec eu lectus.
+                            </p>
+                           <p><a data-popup-close="popup-4" href="#">Close</a></p>
+                           <a class="popup-close" data-popup-close="popup-4" href="#">x</a>
+                       </div>
+                   </div>
                 </div>
             </div>
         </div>
+    </div>
     </section>
     <!-- End Work Section -->
 
     <!-- Start Contact Section -->
     <section class="contact">
-        <div class="socials">
-            <a href="./assets/simulate-varselect.pdf" target="_blank" class="btn-style1">Resume</a>
-            <a href="https://www.linkedin.com/in/suriankita/" class="btn-style1">LinkedIn</a>
+        <h1>
+            Contact Me
+        </h1>
+        <div class="container socials">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- LINKED IN -->
+                    <a href="https://www.linkedin.com/in/suriankita/" target="_blank">
+                        <i class="fa fa-linkedin-square fa-5x"></i>
+                    </a>
+                    <h5>suriankita</h5>
+                </div>
+                <div class="col-md-6">
+                    <!-- EMAIL -->
+                    <a href="mailto:ankitaasuri@gmail.com">
+                        <i class="fa fa-envelope fa-5x"></i>
+                    </a>
+                    <h5>ankitaasuri@gmail.com</h5>
+                </div>
+            </div>
+
         </div>
     </section>
     <!-- End Contact Section -->
