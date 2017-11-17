@@ -1,7 +1,10 @@
 /* pastels */
 /* https://www.incengine.com/?art=pastel_colors */
 
-@import url('https://fonts.googleapis.com/css?family=Anton|Barlow+Condensed|Lobster');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* font-family: 'Roboto', sans-serif; */
+
+/* @import url('https://fonts.googleapis.com/css?family=Anton|Barlow+Condensed|Lobster'); */
 /* font-family: 'Anton', sans-serif; */
 /* font-family: 'Barlow Condensed', sans-serif; */
 /* font-family: 'Lobster', cursive; */
@@ -24,6 +27,7 @@ p,span{
 }
 
 #name{
+	font-family: 'Roboto', sans-serif;
     font-size: 5em;
     letter-spacing: 6px;
 }
