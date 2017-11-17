@@ -12,11 +12,3 @@ svg pattersn
 http://www.heropatterns.com/
 
 Incoming changes:
-* correct email
-* No text shadows
-* Convert "About Me" to image
-* include "Experience" image after "About me" image
-* Use Triangle SVG for Skill box:hover
-* All text blue-ish color
-* reduce color scheme to just the dark pink and blue
-* Showcase w/&w/o parallax

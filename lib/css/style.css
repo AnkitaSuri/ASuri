@@ -1016,11 +1016,11 @@ form #email {
 footer {
   padding: 0 0 20px 0;
   /* background: #333; */
-  background-color:lightgray;
+  background-color:#fdfcff;
 }
 
 .copyright p {
   text-align: center;
-  color:black;
+  color:#404040;
   /* color: #ddd; */
 }
