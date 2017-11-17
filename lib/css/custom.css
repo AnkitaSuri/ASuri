@@ -11,12 +11,12 @@ html, body{
     padding: 0;
     height: 100%;
     width: 100%;
-    color: #538EA6!important;
+    color: #2d5f73!important;
 }
 
 h1,h2,h3,h4,h5,h6,.main-parallax,.element{
     font-family: 'Anton', sans-serif; 
-    color: #538EA6;
+    color: #2d5f73;
 }
 
 p,span{
