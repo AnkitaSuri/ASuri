@@ -43,16 +43,16 @@ p,span{
     overflow: hidden;
 /*     background-color: rgb(242, 140, 140); */
     box-sizing: border-box;
-    /* box-shadow: 0 -1px 10px rgba(0, 0, 0, .7); */
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
     transform-style: inherit;
-    text-align: right;
+    text-align: center;
 }
 .main-parallax > div{
     width:100%;
     display: inline-block;
     text-align: center;
     position: relative;
-    top:35vh;
+    top:63vh;
 }
 /* .main-parallax:before {
     content: "";
@@ -64,9 +64,9 @@ p,span{
   } */
 
 img.para {
-    position: absolute;
+    /* position: absolute; */
     /* z-index: -1; */
-    right: 40px;
+    /* right: 40px; */
     margin-top: 3%;
     /* margin-right: 7%; */
     /* display: inline-block; */
@@ -275,4 +275,9 @@ a{
     transform:translate(50%, -50%) rotate(180deg);
     background:rgba(0,0,0,1);
     text-decoration:none;
+}
+
+/* particles */
+#particles_div{
+    height: 250px;
 }

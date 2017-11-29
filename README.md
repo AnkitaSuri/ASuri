@@ -12,3 +12,6 @@ svg pattersn
 http://www.heropatterns.com/
 
 Incoming changes:
+* Center image
+* kill rounded shadows
+* particle showcase
