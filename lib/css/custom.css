@@ -92,7 +92,7 @@ img.para {
     text-align: center;
     background-color: rgba(255,255,255,0.75);
     padding: 15px;
-    height: 90%;
+    height: min-content;
     border-radius: 20px;
     border: solid 1px #2d5f73
     
