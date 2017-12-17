@@ -151,6 +151,11 @@ p,span{
 }
 .about img{
     width:75vw;
+    margin-top: 15px;
+}
+
+.about img:last-child{
+    margin-bottom: 15px;
 }
 
 .work{
