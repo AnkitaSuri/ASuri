@@ -14,8 +14,8 @@ html, body{
     padding: 0;
     height: 100%;
     width: 100%;
-    color: #565656;
-    background-color: #d7cec7 ;
+    color: rgb(86, 86, 86);
+    background-color: rgb(215, 206, 199);
 }
 
 h1,h2,h3,h4,h5,h6,.main-parallax,.element{
@@ -181,7 +181,7 @@ p,span{
     width:50vw;
 }
 a{
-    color:#76323F;
+    color:rgb(118, 50, 63);
 }
 .skill-box{
     left: initial!important; /* needed to stop stellar */
