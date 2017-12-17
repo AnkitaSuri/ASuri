@@ -25,7 +25,9 @@
     <!-- Start Preloader -->
     <div class="preloader" style="display: none;">
         <div class="preloader-img">
-            <img src="./assets/AnkitaImage.JPG" alt="">
+            <!-- <img src="./assets/AnkitaImage.JPG" alt=""> -->
+            <!-- <img src="./assets/experience.jpg" alt="">
+            <img src="./assets/about_me.jpg" alt=""> -->
         </div>
         <div class="preloader-img"></div>
     </div>
@@ -41,9 +43,9 @@
             </h1>
 
             <!-- Summary Qoute -->
-            <h3 id="quote">
+            <!-- <h3 id="quote">
                 Helping non-profits organize for social good
-            </h3>
+            </h3> -->
 
         </div>
     </header>
@@ -51,15 +53,19 @@
 
     <!--Start Welcome Section-->
     <div class="main-parallax">
-        <div>
-            <!-- FLOATING WORDS -->
-            <!-- TO CHANGE FLOATING WORDS, GO TO "lib/js/main.js" -->
-
-            <!-- Container for floating words -->
-            <div class="element"></div>
-            <span class="typed-cursor"></span>
+        <!-- needed to remove height from responsive image -->
+        <div class="faker">
+            <div id="typed">
+                <!-- FLOATING WORDS -->
+                <!-- TO CHANGE FLOATING WORDS, GO TO "lib/js/main.js" -->
+    
+                <!-- Container for floating words -->
+                <div class="element"></div>
+                <span class="typed-cursor"></span>
+            </div>
         </div>
-        <img class="para" src="./assets/AnkitaImage.JPG" alt="">
+        
+        <img class="para" id="hiding" src="./assets/AnkitaImage.JPG" alt="">
     </div>
     <!--End Welcome Section-->
 
@@ -67,12 +73,13 @@
     <section class="about" >
         
         <!-- IMAGES HERE -->
-        <!-- <div>
+        <div>
             <img src="assets/about_me.jpg" alt="">
             <img src="assets/experience.jpg" alt="">
-        </div> -->
+        </div>
 
-        <div class="about_me_wrapper">
+        <!-- about me start -->
+        <!-- <div class="about_me_wrapper">
                 <div id="particles"></div>
             <div class="about_me">
                 <h2>ABOUT ME</h2>
@@ -81,9 +88,11 @@
                 <p>Currently, I work at All Star Code as a Program Manager where I manage a Summer Intensive program for young men of color to learn computer science and entrepreneurship skills. In my role, I focus on program design, expansion and monitoring and evaluation.</p>
                 <p>In my free time, I've participated in opportunities to continue learning through volunteering, advisory groups and consulting. Reach out to me if you have any career or consulting opportunities, or recommendations for Thai restaurants.</p>
             </div>
-        </div>
+        </div> -->
+        <!-- end of about me -->
         
-        <div class="exp_wrapper">
+        <!-- experience start -->
+        <!-- <div class="exp_wrapper">
             <div class="experience container">
                 <h2>
                     EXPERIENCE
@@ -132,7 +141,8 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
+        <!-- experience end -->
     
     </section>
     <!--End About Section-->
@@ -140,7 +150,7 @@
     <!-- Start Work Section -->
     
     <!-- BACKGROUND FOR WORK SECTION (CONTAINS SKILL BOXES) -->
-    <section class="work" style="background-image:url(assets/pastel2.jpg);">
+    <section class="work">
         <div class="lighten">
         <h1 class="section-title">
             WORK WITH ME
@@ -292,8 +302,9 @@
     <script type="text/javascript" src="./lib/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="./lib/js/typed.js"></script>
     <script type="text/javascript" src="./lib/js/jquery.waypoints.min.js"></script>
-    <script type="text/javascript" src="./lib/js/jquery.stellar.min.js"></script>
-    <script type="text/javascript" src="./lib/js/particles.js"></script>
+    <!-- <script type="text/javascript" src="./lib/js/jquery.stellar.min.js"></script> -->
+    <!-- <script type="text/javascript" src="./lib/js/particles.js"></script> -->
+    <script type="text/javascript" src="./lib/js/jquery.backstretch.min.js"></script>
     <script type="text/javascript" src="./lib/js/main.js"></script>
     <script type="text/javascript" src="./lib/js/custom.js"></script>
 </body>

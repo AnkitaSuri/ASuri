@@ -72,7 +72,7 @@
 header {
   padding: 10px 0;
   line-height: 80px;
-  background: #fdfcff;
+  background: #d7cec7;
   position: fixed;
   z-index: 5;
   width: 100%;
@@ -1016,7 +1016,7 @@ form #email {
 footer {
   padding: 0 0 20px 0;
   /* background: #333; */
-  background-color:#fdfcff;
+  /* background-color:#fdfcff; */
 }
 
 .copyright p {
