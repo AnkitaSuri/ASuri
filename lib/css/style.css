@@ -72,7 +72,7 @@
 header {
   padding: 10px 0;
   line-height: 80px;
-  background: #d7cec7;
+  background: rgb(247, 245, 244);
   position: fixed;
   z-index: 5;
   width: 100%;
