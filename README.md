@@ -15,11 +15,6 @@ large image background stretching
 http://www.jquery-backstretch.com/
 
 Incoming changes:
-*change color sheme
-*(oxblood) #76323F
-*(new grey) #d7cec7
-*(new black) #565656
-*gray - background for everything
-*Maybe add color picker?
+
 
 
